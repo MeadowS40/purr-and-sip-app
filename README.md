@@ -35,10 +35,6 @@ The Purr & Sip app solves these problems by providing a simple, intuitive mobile
 
 **Target Platform:** Mobile (iOS and Android)
 
-**Cross-Platform Framework:** React Native
-
-**Rationale:** Using React Native allows us to build a single codebase that deploys to both major mobile platforms, reducing development time and maintenance complexity. This is ideal for a beginner-to-intermediate project scope.
-
 ---
 
 ## Frontend & Backend Support
@@ -78,23 +74,11 @@ The Purr & Sip app solves these problems by providing a simple, intuitive mobile
 5. View my upcoming and past bookings
 6. See special offers for off-peak time slots
 
-**As a Staff Member/Admin, I want to:**
-1. Log in with admin credentials
-2. View today's bookings in a simple list
-3. Mark bookings as "checked in"
-4. Define off-peak hours for promotional offers
-5. Update cafe capacity settings
-
-**As a Cafe Owner, I want to:**
-1. View revenue reports from bookings
-2. Adjust promotional settings dynamically
-3. Receive notifications for capacity nearing limits
-
 ---
 
 ## Design (Wireframes)
 
-The app will follow a clean, warm aesthetic that reflects the cozy atmosphere of a cat cafe. Below is a summary of the key screens and their intended layout.
+The app will follow a clean, warm aesthetic that reflects the cozy atmosphere of a cat cafe.
 
 ### Wireframe Structure
 # purr-and-sip-app
