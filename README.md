@@ -1,85 +1,40 @@
-# Purr & Sip Cat Cafe - Mobile App Project
+# 1. Project Description
+The General Calendar App is a mobile application designed to help users manage their daily, weekly, and monthly events and tasks. The app allows users to add, edit, and delete events, set reminders, and view their schedule in multiple formats (day, week, month). The goal of the app is to provide a simple, easy-to-use calendar tool for personal organization.
 
-## Project Overview
+# 2. Problem Being Addressed
+Many people struggle to keep track of appointments, deadlines, and personal events across different platforms or paper planners. Existing calendar apps can be overly complex or cluttered with unnecessary features. This app solves that problem by offering a clean, straightforward calendar interface focused on core scheduling needs without distractions.
 
-**Purr & Sip** is a mobile application designed for a local cat cafe to streamline booking management, reduce customer wait times, and optimize revenue during slow periods. The app provides customers with real-time availability, secure booking, and special incentives for off-peak visits while giving staff an efficient tool to manage capacity.
+# 3. Platform
+The app will be developed for the Android mobile platform. It will be created using MIT App Inventor. The application will run on Android phones and tablets.
 
-This project is being developed as part of a course on innovation and cloud-based application development.
+# 4. Front-End and Back-End Support
+## Front-End
+The front-end includes all screens and components users interact with, such as the calendar view, event forms, buttons for adding/editing events, and reminder notifications.
 
----
+## Back-End
+The back-end will store and manage event data, including event titles, dates, times, descriptions, and reminder settings. Data may be stored using TinyDB or a simple local database for persistent storage on the device.
 
-## Project Description
+# 5. Functionality
+The main features of the application will include:
+- Viewing a calendar by day, week, or month
+- Adding new events with title, date, time, and description
+- Editing or deleting existing events
+- Setting reminders for upcoming events
+- Viewing a list of upcoming events
 
-The Purr & Sip Cat Cafe is a popular local establishment where customers enjoy beverages and pastries while interacting with resident cats. Due to the popularity of the cafe and strict capacity limits to ensure animal welfare, the business struggles with:
+These features will help users stay organized and never miss important appointments or deadlines.
 
-- Long customer wait times
-- Manual, error-prone booking processes
-- Underutilized slow periods
+# 6. Design (Wireframes)
+The app will include several simple screens:
 
-The Purr & Sip app solves these problems by providing a simple, intuitive mobile application that allows customers to view real-time availability, book time slots, and receive promotional offers for off-peak hours. Staff can easily manage bookings through a streamlined interface.
+## Main Calendar Screen
+This screen will display the calendar in month view by default, with buttons to switch to week view or day view. Users can tap on a date to view or add events.
 
----
+## Add/Edit Event Screen
+This screen will allow users to enter or modify event details such as title, date, time, description, and reminder preference.
 
-## Problem Addressing
+## Event List Screen
+This screen will show a scrollable list of all upcoming events in chronological order.
 
-| Problem | How the App Addresses It |
-|--------|--------------------------|
-| Overcrowding & Long Waits | Real-time booking system guarantees customers a spot before arrival, eliminating walk-in uncertainty |
-| Inefficient Booking Process | Automated online booking with instant confirmation replaces manual phone calls and web forms |
-| Underutilized Slow Periods | "Slow-Time Specials" feature offers discounts/promotions for bookings during off-peak hours, smoothing customer flow and increasing revenue |
-| Cat Welfare Concerns | Controlled booking limits ensure the cafe never exceeds safe capacity for the cats |
-
----
-
-## Platform
-
-**Target Platform:** Mobile (iOS and Android)
-
----
-
-## Frontend & Backend Support
-
-### Frontend
-- **Framework:** React Native
-- **State Management:** React Context API or Redux Toolkit
-- **UI Components:** React Native Paper (Material Design components for clean, professional UI)
-- **Key Screens:**
-  - User Authentication (Login/Sign Up)
-  - Home/Dashboard
-  - Booking Calendar
-  - Booking Confirmation
-  - User Profile
-  - Staff View (separate interface)
-
-### Backend
-- **Backend-as-a-Service:** Google Firebase
-  - **Firebase Authentication:** Handles user sign-up, login, and secure session management
-  - **Cloud Firestore:** NoSQL real-time database for storing bookings, user profiles, and cafe settings
-  - **Firebase Cloud Functions:** Serverless functions to automate promotional logic (e.g., applying "Slow-Time Specials")
-  - **Firebase Hosting:** Optional for hosting any admin web interface
-
-**Rationale:** Firebase provides an integrated suite of tools that work seamlessly together. Its real-time capabilities are essential for accurate booking availability, and the serverless functions simplify backend logic without requiring server management.
-
----
-
-## Functionality
-
-### User Stories
-
-**As a Customer, I want to:**
-1. Create an account and log in securely
-2. View a calendar of available 90-minute time slots
-3. Book a time slot and pay the reservation fee
-4. Receive an instant confirmation with booking details
-5. View my upcoming and past bookings
-6. See special offers for off-peak time slots
-
----
-
-## Design (Wireframes)
-
-The app will follow a clean, warm aesthetic that reflects the cozy atmosphere of a cat cafe.
-
-### Wireframe Structure
-# purr-and-sip-app
-Mobile app for Cat Cafe booking management - Course Project
+## Reminder Screen
+This screen will display active reminders and allow users to dismiss or snooze them.
